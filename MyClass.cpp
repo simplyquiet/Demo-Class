@@ -1,9 +1,29 @@
-void MyClass::setNum(int v)
+#include "MyClass.h"
+
+void MyClass::setnum(int v)
 {
 	num = v;
 }
-
-int Myclass::getNum()
+int MyClass::getnum()
 {
-	return num:
+	return num;
+}
+
+void MyClass::setroom(string str)
+{
+	room = str;
+}
+string MyClass::getroom()
+{
+	return room;
+
+}
+
+void MyClass::setfun(bool t)
+{
+	fun = t;
+}
+bool MyClass::getfun()
+{
+	return fun;
 }

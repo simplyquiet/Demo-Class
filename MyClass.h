@@ -1,3 +1,5 @@
+#include <string>
+using namespace std;
 class MyClass
 {
 	private:
@@ -9,6 +11,11 @@ class MyClass
 		void setnum(int);
 		int getnum();
 
+		void setroom(string);
+		string getroom();
+
+		void setfun(bool);
+		bool getfun();
 
 
 };
