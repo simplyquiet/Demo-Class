@@ -3,12 +3,12 @@ using namespace std;
 class MyClass
 {
 	private:
-		int num;
-		string room;
-		bool fun;
+		int num = 0;
+		string room = "";
+		bool fun = fun;;
 
 	public:
-		void setnum(int);
+	/*	void setnum(int);
 		int getnum();
 
 		void setroom(string);
@@ -16,6 +16,10 @@ class MyClass
 
 		void setfun(bool);
 		bool getfun();
+	*/
 
+		MyClass();//constructor
+		MyClass(int n, string s);
+		MyClass(int n);
 
 };

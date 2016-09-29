@@ -1,6 +1,6 @@
 #include "MyClass.h"
 
-void MyClass::setnum(int v)
+/*void MyClass::setnum(int v)
 {
 	num = v;
 }
@@ -26,4 +26,19 @@ void MyClass::setfun(bool t)
 bool MyClass::getfun()
 {
 	return fun;
+}
+*/
+MyClass::MyClass()
+{
+}
+
+MyClass::MyClass(int n,string s)
+{
+	num = n;
+	room = s;
+}
+
+MyClass::MyClass(int n)
+{
+	num = n
 }
